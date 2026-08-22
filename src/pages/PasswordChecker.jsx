@@ -16,8 +16,8 @@ export default function PasswordChecker() {
     setResult({ strength, message, length: password.length }); setError('');
   }
   function clear() { setPassword(''); setResult(null); setError(''); }
-  return 
-  <section><PageHeader number="3" 
+  return <section>
+    <PageHeader number="3" 
   title="Password Strength Checker" 
   description="Classify a password as weak, medium, or strong based on its length." />
   <div className="workspace-card two-column">
